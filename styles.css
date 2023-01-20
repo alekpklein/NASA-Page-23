@@ -1,11 +1,17 @@
 * {
   box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
 }
 body {
-  background-color: darkcyan;
+  background-color: white;
 }
 h1 {
   font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 140px;
+  position: sticky;
+  font-size: 70px;
 }
 section {
   font-family: "Solitreo", cursive;
@@ -20,8 +26,35 @@ main,
 footer {
   border: 3px solid blue;
   flex: 1;
+  line-height: .5;
 }
 main {
   background-image: url("./NASAback.jpg");
   background-size: cover;
 }
+h2 {
+  margin-right: 150px;
+  font-size: medium;
+  padding: 1rem;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+  background-color: gray;
+}
+p {
+  text-align: left;
+  margin-left: 30px;
+  color: rgb(63, 62, 62);
+}
+input {
+  margin-right: 90px;
+}
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
