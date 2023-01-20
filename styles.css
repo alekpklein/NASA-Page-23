@@ -4,3 +4,24 @@
 body {
   background-color: darkcyan;
 }
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+section {
+  font-family: "Solitreo", cursive;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+main,
+footer {
+  border: 3px solid blue;
+  flex: 1;
+}
+main {
+  background-image: url("./NASAback.jpg");
+  background-size: cover;
+}
